@@ -576,12 +576,12 @@ body {
 
 @media (max-width: 380px) {
 	.buttons {
-		flex-direction: column;
+		flex-wrap: wrap;
 	}
 	.buttons__link {
 		font-size: 14px;
 		line-height: 20px;
-		width: 100%;
+		width: 48%;
 	}
 	.header__link {
 		padding: 19px 30px 18px;
@@ -597,3 +597,4 @@ body {
 		line-height: 20px;
 	}
 }
+
