@@ -1,9 +1,9 @@
 <h1>CBFPOOLGA</h1>
 <br>
 <p>Landing page redesign & code</p>
-<a href="https://alinaharakh.github.io/cbfpoolga/"><strong>Website Link</strong></a>
+<a href="https://alinaharakh.github.io/cbfpoolga/"><strong>WEBSITE LINK</strong></a>
 <br>
-<ul>Tools:
+<ul><strong>Tools:</strong>
   <li>HTML</li>
   <li>CSS</li>
   <li>JS</li>
