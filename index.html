@@ -1,213 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CBFPOOLGA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;600&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>CBFPOOLGA</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;600&family=Montserrat:wght@700&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <a class="header__logo" href="#">
+              <img
+                class="logo__img"
+                src="images/logo.svg"
+                alt="logo"
+                title="logo"
+              />
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item crimson-btn">
+                  <a class="menu__link crimson-btn__link" href="#"
+                    >NFL<span class="menu__arrow arrow"></span
+                  ></a>
+                  <ul class="submenu menu__sub-list">
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">NFL Sheets</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">NFL Master</a>
+                    </li>
+                    <li class="submenu__item submenu__link-nfl">
+                      <a class="submenu__link" href="#">NFL Play Online</a>
+                    </li>
+                  </ul>
+                </li>
 
-<body>
-	<header class="header">
-		<div class="header__top">
-			<div class="container">
-				<div class="header__top-inner">
-					<a class="header__logo" href="#">
-						<img class="logo__img" src="images/logo.svg" alt="logo" title="logo">
-					</a>
-					<nav class="buttons">
-						<a class="buttons__link" href="https://cbfpoolga.com/NFLSheet">NFL SHEETS</a>
-						<a class="buttons__link" href="https://cbfpoolga.com/NFLMaster">NCAAF SHEETS</a>
-						<a class="buttons__link link-master" href="https://cbfpoolga.com/NCCASheet">NFL MASTER</a>
-						<a class="buttons__link link-master" href="https://cbfpoolga.com/NCCAMaster">NCAAF MASTER</a>
-					</nav>
-					<div class="header__links">
-						<a class="header__link" href="#">Log In</a>
-						<a class="header__link" href="#">Sign Up</a>
-					</div>
-					<div class="account">
-						<img class="account__img" src="images/account.svg" alt="account icon">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<h1 class="header__title">Your #1 <br>football pool</h1>
-		</div>
-	</header>
+                <li class="menu__item violet-btn">
+                  <a class="menu__link violet-btn__link" href="#"
+                    >NCAA<span class="menu__arrow arrow"></span
+                  ></a>
+                  <ul class="submenu menu__sub-list">
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">NCAA Sheets</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">NCAA Master</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link submenu__link-ncaa" href="#"
+                        >NCAA Play Online</a
+                      >
+                    </li>
+                  </ul>
+                </li>
 
-	<main class="main">
-		<section class="how">
-			<div class="container">
-				<h2 class="how__title section-title">How to play?</h2>
-				<p class="how__subtitle">There are two ways to submit your sheets:</p>
-				<div class="how__inner">
-					<div class="how__items">
-						<div class="how__item">
-							<h4 class="how__item-title">Manually play</h4>
-							<p class="how__item-desc">Print / Pickup sheets</p>
-						</div>
-						<div class="how__item">
-							<h4 class="how__item-title">Play online</h4>
-							<p class="how__item-desc">Register on the website</p>
-						</div>
-					</div>
-					<div class="how__info">
-						<div class="how__info-items">
-							<div class="how__info-item">
-								<p class="how__info-text">Click on NFL Sheet or and NCAAF Sheet.</p>
-							</div>
-							<div class="how__info-item">
-								<p class="how__info-text"> If you <span>Print - Pick Sheets</span> — pick 1 winning team from each game
-									by <span class="black">marking a
-										“X” in the box</span>
-									from each pick.</p>
-							</div>
-							<div class="how__info-item">
-								<p class="how__info-text"> Put a total number of combined points for the tiebreaker for the last game on
-									the sheet.</p>
-								<p class="how__info-text --example">Example Away team <span>30 </span>– Home Team <span>10</span>. You
-									would put <span>40</span></p>
-							</div>
-							<div class="how__info-item">
-								<p class="how__info-text">Send money via cash app: <span>$CBFPOOLGA</span></p>
-								<p class="how__info-text --example">(Put your unique code in Note)</p>
-							</div>
-						</div>
-						<div class="how__info-items">
-							<div class="how__info-item">
-								<p class="how__info-text">If you play <span>online</span> — Pick 1 winning team from each game by
-									pressing 1 team
-									from each line. </p>
-								<p class="how__info-text --example">(You will not be able to submit your sheet until ALL GAMES have
-									been picked.)</p>
-								<p class="how__info-note">A copy of your picks will be emailed to your registered email - This is the
-									best
-									way
-									to ensure that there are no mistakes and to keep a record of your sheets. This can
-									be done via your phone or computer.</p>
-							</div>
-							<div class="how__info-item">
-								<p class="how__info-text">Come by nearest drop off location and give them your <span>unique code</span>
-									and pay for
-									your picks</p>
-							</div>
-							<div class="how__info-item">
-								<p class="how__info-text">You can play as many picks / sheets as you want.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="timeline">
-			<div class="container">
-				<h2 class="timeline__title section-title">Timeline</h2>
-				<div class="timeline__inner">
-					<div class="timeline__info">
-						<p class="timeline__info-item">
-							New Sheets will be available online every Tuesday
-						</p>
-						<p class="timeline__info-item">
-							Picks must be in by Date on NFL / NCAA Sheets
-						</p>
-						<p class="timeline__info-item">
-							The master Sheet (everyone Picks) will be available 1 day before the Game starts
-						</p>
-						<p class="timeline__info-item">
-							Winners will be highlighted 1 day after last game
-						</p>
-						<p class="timeline__info-item">
-							Winners will be paid 1 day after last game
-						</p>
-						<p class="timeline__info-item">
-							<span>DO NOT CALL</span> DROP OFF LOCATIONS FOR ANY ISSUES OR PROBLEMS. <a
-								class="timeline__info-link mail-link" href="mailto:cbfpoolga@gmail.com">EMAIL: CBFPOOLGA@GMAIL.COM</a>
-						</p>
-					</div>
-					<img class="timeline__img" src="images/timeline_bg.jpg" alt="timeline image">
-				</div>
-			</div>
-		</section>
-		<section class="rules">
-			<div class="container">
-				<h2 class="rules__title section-title">Rules regulations</h2>
-				<div class="rules__inner">
-					<img class="rules__img" src="images/rules_bg.jpg" alt="rules image">
-					<div class="rules__info">
-						<p class="rules__info-text">
-							Tie breaker occurs when two or more people have the least amount wrong.
-						</p>
-						<p class="rules__info-text">
-							Best winning record for the entire week wins / ties will be determined my closet to overall score over or
-							under.
-						</p>
-						<p class="rules__info-text --significant">
-							PLEASE CHECK YOUR PICKS!!! IF THERE ARE ANY ISSUES, PLEASE LET ME KNOW ASAP WE WILL MAKE CHANGES ONLY
-							ACCORDINGLY TO YOUR SHEETS/EMAILS. NO CHANGES WILL BE MADE 1HR BEFORE THE FIRST GAME.
-						</p>
-						<p class="rules__info-text">
-							If we made a mistake, please email
-							<a class="rules__info-link mail-link" href="mailto:cbfpoolga@gmail.com"> EMAIL: CBFPOOLGA@GMAIL.COM
-							</a> asap. With entry # & name on sheet. The entry number can be found on the master sheet under home /
-							away column
-						</p>
-						<p class="rules__info-text">
-							Sheets will be corrected as per what you put down.
-						</p>
-						<p class="rules__info-text">
-							Any blank picks will automatically be picked.
-						</p>
-						<p class="rules__info-text">
-							Any blank tiebreaker will automatically be picked at 40pts
-						</p>
-						<p class="rules__info-text">
-							Winners will be highlighted every Tuesday morning.
-						</p>
-						<p class="rules__info-text">
-							If any game is canceled due to any reason, then it just won't count.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="cash">
-			<div class="container">
-				<h2 class="cash__title section-title">Cash App/Email rules</h2>
-				<div class="cash__items">
-					<p class="cash__text">Send money first then email your sheets.</p>
-					<p class="cash__text">Cash app: <span>$CBFPOOLGA</span></p>
-					<p class="cash__text">
-						Send the name on your sheet when using cash app, <span>this is the only we know which sheet is yours.</span>
-						<span class="cash__example">(Example: When you Cashapp – for “Your name” on sheet)</span>
-					</p>
-					<p class="cash__text">If you are emailing picks, below is an example of how they should be.
-						<span class="cash__black">Name: example</span><br>
-						<span class="example--grey">1,3,5,7,9,12,13,16,18,20,22,24,26,27,29 TB: 62 <br>
-							1,3,5,7,10,12,13,16,18,20,21,23,25,27,30 TB 64 <br>
-							30,33,35,37,39,42,43,46,48,50,52,54,56,58,60 TB: 48</span>
-					</p>
-				</div>
-			</div>
-		</section>
-	</main>
-	<footer class="footer">
-		<div class="container">
-			<p class="copyright">
-				© CBFPOOLGA 2022
-			</p>
-		</div>
-	</footer>
+                <li class="menu__item blue-btn">
+                  <a class="menu__link blue-btn__link" href="#"
+                    >NBA<span class="menu__arrow arrow"></span
+                  ></a>
+                  <ul class="submenu menu__sub-list">
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">NBA Sheets</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">NBA Master</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link submenu__link-nba" href="#"
+                        >NBA Play Online</a
+                      >
+                    </li>
+                  </ul>
+                </li>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="js/main.js"></script>
-</body>
+                <li class="menu__item ochre-btn">
+                  <a class="menu__link ochre-btn__link" href="#"
+                    >Football Squares</a>
+                </li>
+								<li class="menu__item pay-btn">
+									<a class="pay-btn__link" href="#">Donate Here</a>
+								</li>
+              </ul>
+            </nav>
+              <a class="header__contact" href="#contact">Contact Us</a>
+            <button class="header__burger burger">
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <h1 class="header__title">City Boys Pool – The #1 Sports Pool</h1>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="how">
+        <div class="container">
+          <h2 class="how__title section-title">How to play?</h2>
+          <div class="how__info">
+            <div class="how__info-items">
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Pick which pool (from the above buttons) you want to play
+                </p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Click <span class="small-note">“PlayOnline”</span>
+                </p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Enter your Nickname you want on your sheet
+                </p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Enter an email.
+                  <span class="note">PLEASE MAKE SURE IT’S A GOOD EMAIL, OR YOU WILL NOT GET A COPY OF YOUR PICKS</span>
+                </p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Enter your Telephone Number (This way we can contact you)
+                </p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Pick a Tiebreaker for the last game on the Sheet.
+                </p>
+                <p class="how__info-text example">
+                  Example: You think the Away team will score 27 – the Home Team will score 20. You would put 47
+                </p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Click on <span class="small-note">"Submit"</span>
+                </p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Click on <span class="small-note">"Play Another Sheet"</span>
+                </p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">Play as many sheets as you want</p>
+              </div>
+              <div class="how__info-item">
+                <p class="how__info-text">
+                  Click on <span class="small-note">"Donate"</span
+                  ><span class="better-sign"> &</span>
+                  pay the total amount once you’re done.
+                  <span class="note">DO NOT SEND SEPARATE PAYMENTS</span>. If you play all 3 pools sends 1 payment for all picks.
+                </p>
+                <p class="how__info-text example">
+                  You play 5 Pro <span class="better-sign" style="color: #101010">&</span> 1 College <span class="better-sign" style="color: #101010">&</span> 2 Basketball send donation for 8 picks
+                </p>
+								<p class="how__info-text example">
+									Once done with all your picks click “Donate Here” button and donate the number of sheets you played.
+								</p>
+              </div>
+            </div>
+            <div class="how__info-items">
+              <div class="how__image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="timeline">
+        <div class="container">
+          <h2 class="timeline__title section-title">Timeline</h2>
+          <div class="timeline__inner">
+            <div class="timeline__info-items">
+              <div class="timeline__info-item">
+                <p class="timeline__info-text">
+                  New Sheets will be available online every Wednesday
+                </p>
+              </div>
+              <div class="timeline__info-item">
+                <p class="timeline__info-text">
+                  All picks must be in by the time posted on sheets
+                </p>
+              </div>
+              <div class="timeline__info-item">
+                <p class="timeline__info-text">
+                  The master Sheet (everyone Picks) will be available for at least 2 hrs. Before the first game starts
+                </p>
+              </div>
+            </div>
+            <div class="timeline__info-items">
+							<div class="timeline__info-item">
+                <p class="timeline__info-text">
+                  Master Sheets will be updated after 8 pm for all games
+                </p>
+              </div>
+              <div class="timeline__info-item">
+                <p class="timeline__info-text">
+                  Winners will be highlighted after the last game is over
+                </p>
+              </div>
+              <div class="timeline__info-item">
+                <p class="timeline__info-text">
+                  Winners will be paid on Tuesday’s, please contact me via text or email for payment options (Cashier’s check or Cash)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rules">
+        <div class="container">
+          <div class="rules__inner">
+            <h2 class="rules__title section-title">Rules</h2>
+            <div class="rules__content">
+              <div class="rules__info">
+                <p class="rules__info-text">
+                  Best winning record for the entire week wins
+                </p>
+              </div>
+              <div class="rules__info">
+                <p class="rules__info-text">
+                  Ties will be determined by closet to overall score over or under
+                </p>
+              </div>
+              <div class="rules__info">
+                <p class="rules__info-text">
+                  If there is more than 1 winner, the Pot is split
+                </p>
+              </div>
+              <div class="rules__info">
+                <p class="rules__info-text">
+                  If any game is cancelled for any reason, then that game will not count
+                </p>
+              </div>
+              <div class="rules__info">
+                <p class="rules__info-text">
+                  If a Tiebreaker game is cancelled, the sheets with the highest wins will split the pot
+                </p>
+              </div>
+              <div class="rules__info">
+                <p class="rules__info-text">
+                  It is <span class="note">YOUR RESPONSIBILITY</span> to pay for all your picks before the deadline.
+									<p class="rules__info-text">
+										If payment has not been received, we will delete the online picks of our choice.
+									</p>
+                </p>
+              </div>
+							<div class="rules__info">
+                <p class="rules__info-text">
+                  It is <span class="note">YOUR RESPONSIBILITY</span> to Check Your Picks before you hand in your sheets
+                </p>
+              </div>
+							<div class="rules__info">
+                <p class="rules__info-text">
+                  <span class="note">NO CHANGES CAN BE DONE FOR ONLINE PICKS</span>
+                </p>
+              </div>
+							<div class="rules__info">
+                <p class="rules__info-text">
+                  If you do not pay for all your picks, <span class="note">WE WILL DELETE</span> whatever picks are not paid for.
+                </p>
+              </div>
+							<div class="rules__info">
+                <p class="rules__info-text">
+                  If you send multiple picks <span class="better-sign" style="color: #fff">&</span> not enough money, <span class="note">WE WILL DELETE</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="contact__title section-title">Contact</h2>
+          <div class="contact__content">
+            <div class="contact__info">
+              <div class="contact__info-item">
+                <p class="contact__info-name">Email:</p>
+                <a
+                  class="contact__info-email contact__mail"
+                  href="mailto:CBFPOOLGA@GMAIL.COM"
+                >
+                  CBFPOOLGA<span>@</span>GMAIL.COM
+                </a>
+              </div>
+              <div class="contact__info-item">
+                <p class="contact__info-name">Text Only:</p>
+                <a class="contact__phone" href="tel:4045586456">404-558-6456</a>
+              </div>
+            </div>
+            <div class="contact__image">
+              <img
+                class="contact__image-img"
+                src="images/contacts_img.jpg"
+                alt="contact image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">© CBFPOOLGA 2024</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
